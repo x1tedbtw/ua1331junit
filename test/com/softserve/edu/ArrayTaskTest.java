@@ -90,7 +90,7 @@ public class ArrayTaskTest {
 
         ArrayList<Integer> expected = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 6, 7, 88));
 
-        assertEquals(expected, arrayTask.listInAscendingOrder(), "Should return list in descending order");
+        assertEquals(expected, arrayTask.listInAscendingOrder(), "Should return list in descending order ");
 //        Collections.sort(getList());
 //        System.out.println("Sorted list: " + getList());
     }

@@ -68,7 +68,7 @@ public class ArrayTask {
         for (int num : getList()){
             if (num == 1) {
                 found = true;
-                System.out.println("Number is found!");
+                System.out.println("Number is found! ");
             }
         }
 
